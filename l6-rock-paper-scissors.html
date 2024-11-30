@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scossors</title>
+</head>
+<body>
+    <p>Rock Paper Scissors</p>
+    <button onclick="
+        let randomNumber =Math.floor(Math.random()*3+1);
+        let computerMove = '';
+
+        if(randomNumber==1){
+            computerMove = 'rock';
+        }
+        else if(randomNumber==2){
+            computerMove = 'paper';
+        }
+        else if(randomNumber==3){
+            computerMove = 'scissors';
+        }
+
+        if(computerMove === 'scissors'){
+            alert(`You chose ${computerMove} so you won!`)
+        }
+
+        if(computerMove === 'rock'){
+            alert(`You chose ${computerMove}, It\'s a tie`)
+        }
+        
+        if(computerMove === 'paper'){
+            alert(`You chose ${computerMove} you won!`)
+        }
+
+        /* The same applies for the other buttons*/
+    ">Rock</button>
+    <button>Paper</button>
+    <button>Scissors</button>
+
+</body>
+<script>
+
+</script>
+</html>

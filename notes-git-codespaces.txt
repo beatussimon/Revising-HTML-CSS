@@ -1,0 +1,19 @@
+truthy and falsey values they act as the shortcut in coding for instanse instead of saying if the cart quantity > 0 you can simply say that if the cart quantity and it just works 
+practical wxample:
+if (cartQuantity) this will retun false if the cart quantity is zero but otherwise if the cart uantity equaks a ceratain amount then the function will return false
+
+
+Falsey values include NaN, false, 0 Null undefined, ''
+you get nan if you get the invalid result example dividing lwtter eiht a number
+
+undefined represents that this variable has no value
+
+ternary operator
+(condition)? "first cindition":"second condtion"
+
+Guard operator you can use && operator to guard theat if the left fails then block the right code
+false&&condole.log("you are not a human") it serves as a shortcut for if statements
+
+the OR operator also short circuits , The or operator ascts as the default operator since it can check betweeen the consition and the other can value can be set as a default value insted of writing if else statements
+
+those three ternary guard and default operators are the SHORTCUTS
