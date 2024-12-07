@@ -17,3 +17,9 @@ false&&condole.log("you are not a human") it serves as a shortcut for if stateme
 the OR operator also short circuits , The or operator ascts as the default operator since it can check betweeen the consition and the other can value can be set as a default value insted of writing if else statements
 
 those three ternary guard and default operators are the SHORTCUTS
+
+
+
+CONTINUING LEARNING JAVASCRIPT LESSON 9
+separating each language intoo its own language
+separating javascript into multiple files top-down loadesd the javasctipt saved in different files

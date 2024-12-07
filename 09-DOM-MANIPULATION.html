@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            background-color: rgb(25, 25, 25);
+            color: white;
+        }
+        .img-button{
+            width: 80px;
+        }
+        .css-button{
+            border-radius: 90px;
+            padding: 20px;
+            border: 3px solid white;
+            background-color: transparent;
+            cursor: pointer;
+            margin: 10px;
+
+        }
+        .reset-button{
+            border: none;
+            background-color: white;
+            padding: 20px;
+            border-radius: 40px;
+            font-weight: bold;
+        }
+        
+    </style>
+</head>
+<body>
+    <p>Rock paper scissors</p>
+    <button class="css-button">
+        <img class="img-button" src="rock-emoji.png" alt="">
+    </button>
+    <button class="css-button">
+        <img class="img-button" src="paper-emoji.png" alt="">
+    </button>
+    <button class="css-button">
+        <img class="img-button" src="scissors-emoji.png" alt="">
+    </button>
+    <p>Wins:0, Ties: 0, Losses: 0</p>
+
+    <button class="reset-button">Reset score</button>
+</body>
+</html>
